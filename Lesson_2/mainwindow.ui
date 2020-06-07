@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1230</width>
+    <height>763</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1221</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Задание №1</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>951</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;Написать класс, который будет вставлять в текст спецсимволы (4–5). Пригодится для символов, для которых&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;нет клавиши на клавиатуре, но они часто используются в тексте: © — знак охраны авторского права, ‰ — промилле, ®,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;€ — евро, ₽ — рубль. Например, ввод рубля в программе #@RUB@, или руб. (автоматически заменить на знак).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plainTextEdit">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>120</y>
+        <width>361</width>
+        <height>321</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Задание №2</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1091</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;Создать список с названиями языков программирования (С++, Python, Java, C#, PHP, JavaScript). Для каждого элемента списка&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;рядом отобразить иконку с логотипом языка программирования. Предусмотреть возможность изменения текста в каждом элементе&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;списка. Добавить возможность перемещения элементов в списке. Создать кнопку для добавления нового языка программирования&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;в список. Иконку для него поставить любую (по-умолчанию). Создать кнопку для удаления элемента из списка (в этом случае&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;элемент должен быть выбран). Создать CheckBox и когда будет стоять галочка, отобразить список в режиме иконок (нужен метод&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;setViewMode()). Когда галочка не стоит, то список должен отображаться в обычном режиме. Подсказка: используйте справку qt, вызов F1.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>210</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Отображение иконок</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>270</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>340</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+     <widget class="QListView" name="listView">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>200</y>
+        <width>501</width>
+        <height>411</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Задание №3</string>
+     </attribute>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>1041</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;*Создать таблицу со столбцами: №, Имя компьютера, IP адрес, MAC адрес. Заполнить таблицу данными. Предусмотреть&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;возможность нескольких строк в таблице (они могут идти не подряд). Для выделенных строк, по нажатию на кнопку покрасить&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Helvetica','sans-serif'; font-size:10pt; color:#2c2d30;&quot;&gt;задний фон в другой цвет.&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>811</width>
+        <height>421</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>120</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Добавить строку</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>870</x>
+        <y>220</y>
+        <width>211</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Покрасить фон строки</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1230</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
