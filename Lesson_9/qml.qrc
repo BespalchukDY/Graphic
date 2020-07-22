@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>NewData.qml</file>
+        <file>My_Button.qml</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>img/press.png</file>
+        <file>img/unpress.png</file>
+    </qresource>
+</RCC>
